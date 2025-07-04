@@ -325,3 +325,40 @@ ul li a {
 .hove:hover {
     text-decoration: underline;
 }
+.contanir {
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+}
+.contanir2{
+    height: 232px;
+    width: 100%;
+    padding-left: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.imgcontanir{
+    height: 140px;
+    width: 140px;
+    border-radius: 50px;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.imgcontanir:hover{
+    transform: scale(1) translateY(-5px);
+    box-shadow: 0 -1 25px;
+}
+
+
+.contin {
+    height: 180px;
+    width: 140px;
+    text-align: center;
+   display: inline-block;
+  
+}
+.contin:hover{
+    border-bottom:3px solid black ;
+}
